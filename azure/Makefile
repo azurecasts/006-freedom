@@ -8,7 +8,7 @@ DEPLOY_USER=$(APPNAME)_deploy
 DEPLOY_PASSWORD=a-phrase-youll-remember-thats-url-safe
 
 RUNTIME=node|10.6
-GIT_DEPLOY_URL="https://$(DEPLOY_USER):$(DEPLOY_PASS)@$(APPNAME).scm.azurewebsites.net/$(APPNAME).git"
+GIT_DEPLOY_URL="https://$(DEPLOY_USER):$(DEPLOY_PASSWORD)@$(APPNAME).scm.azurewebsites.net/$(APPNAME).git"
 
 all: logs
 

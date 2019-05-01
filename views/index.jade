@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Hi There
+  p What's your name?
+
+  form(action="/" method="post")
+    input(type="text" name="name")
+    input(type="submit" name="Go")
+
+  p Here are some friends we know
+  ul
+    each n in names
+      li=n.name
