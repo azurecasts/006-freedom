@@ -1,4 +1,4 @@
-# AzureCasts #007: Doing Things for Free
+# AzureCasts #006: Doing Things for Free
 
 I like playing around with Azure but, frankly, it's a bit too easy to do things that result in an accidental charge when your only goal is to test things out. In this episode I'll focus on the Azure free tier and see ways that I can get by without being charged.
 
